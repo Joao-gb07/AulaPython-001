@@ -4,7 +4,7 @@ nota1 = float(input("Digite sua 1ª nota: "))
 nota2 = float(input("Digite sua 2ª nota: "))
 nota3 = float(input("Digite sua 3ª nota: "))
 
-mediaPonderada = (nota1 * 1 + nota2 * 1 + nota3 * 2) / 4
+mediaPonderada = (nota1 * 1 + nota2 * 1 + nota3 * 2) / 3
 
 if (mediaPonderada >= 6):
     print(f"Parabéns {nome}! Você foi aprovado(a), sua média foi: {mediaPonderada}")
